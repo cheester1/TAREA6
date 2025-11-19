@@ -1,0 +1,45 @@
+.dashboard-card--video {
+  position: relative;
+  background: #fff;
+  border-radius: 24px;
+  overflow: hidden;
+  box-shadow: 0 2px 24px 0 rgba(40,50,65,0.12);
+  min-height: 180px;
+  max-height: 234px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 0;
+}
+.dashboard-card__bg {
+  width: 100%;
+  min-height: 120px;
+  object-fit: cover;
+  display: block;
+}
+.dashboard-card__video-controls {
+  position: absolute;
+  left: 16px;
+  bottom: 18px;
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  color: #fff;
+  text-shadow: 0 2px 16px #1a243153;
+  font-weight: 600;
+}
+.dashboard-card__video-controls .material-icons {
+  font-size: 37px;
+  color: #fff;
+}
+.dashboard-card__title {
+  position: absolute;
+  left: 16px;
+  top: 14px;
+  color: #fff;
+  font-size: 1.04rem;
+  font-weight: 600;
+  text-shadow: 0 2px 18px #222a42ad;
+  width: 80%;
+}

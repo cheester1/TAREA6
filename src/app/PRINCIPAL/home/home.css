@@ -1,0 +1,21 @@
+.dashboard-cards {
+  position: relative;
+  width: 100%;
+  max-width: 1320px;
+  height: 480px;
+  min-width: 1100px;
+  margin: 0 auto;
+  padding: 0 24px  0 30px;
+  background: transparent;
+}
+
+/* Cada card ubicada manualmente con left/top/width/height en % o px según necesites */
+.dashboard-cards__player   { position: absolute; left: 0;    top: 0;    width: 50%; height: 30px; }
+.dashboard-cards__profile  { position: absolute; left: 51%;  top: 0;    width: 21%; height: 35%; }
+.dashboard-cards__art      { position: absolute; left: 74%;  top: 0;    width: 28%; height: 35%; }
+.dashboard-cards__thank    { position: absolute; left: 0;    top: 51%; width: 33%; height: 29%; }
+.dashboard-cards__stats    { position: absolute; left: 34%;  top: 51%; width: 38%; height: 29%; }
+.dashboard-cards__revenue  { position: absolute; left: 73%;  top: 51%; width: 29%; height: 29%; }
+.dashboard-cards__music    { position: absolute; left: 0;    top: 109%; width: 33%; height: 28%; }
+.dashboard-cards__interest { position: absolute; left: 34%;  top: 100%; width: 38%; height: 28%; }
+.dashboard-cards__subs     { position: absolute; left: 73%;  top:  96%; width: 29%; height: 50%; }

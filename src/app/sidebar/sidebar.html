@@ -1,0 +1,27 @@
+<aside class="sidebar">
+  <div class="sidebar__icon sidebar__icon--main">
+    <img src="logo-sidebar.png" alt="Logo" />
+  </div>
+
+  <nav class="sidebar__menu">
+    @for (icon of icons; track icon) {
+      <button class="sidebar__button" [class.sidebar__button--active]="icon === 'home'">
+        <span class="material-icons">{{ materialIcon(icon) }}</span>
+      </button>
+    }
+  </nav>
+  <section class="sidebar__users">
+    @for (avatarUrl of avatars; track avatarUrl) {
+      <button class="sidebar__avatar">
+        <img [src]="avatarUrl" alt="user avatar" />
+      </button>
+    }
+    @empty {
+
+    }
+    <div class="sidebar__divider"></div>
+    <button class="sidebar__avatar sidebar__avatar--last">
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png" alt="last user" />
+    </button>
+  </section>
+</aside>

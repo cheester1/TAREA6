@@ -1,0 +1,38 @@
+.main-layout {
+  display: flex;
+  min-height: 97vh;
+  width: 98vw;
+}
+
+.main-layout__sidebar {
+  flex: 0 0 8.2vw;
+  min-width:0x;
+  max-width: 0px;
+  background: transparent;
+  display: flex;
+  align-items: stretch;
+  z-index: 2;
+}
+
+.main-layout__home {
+  flex: 1 1 0%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background: #ffffff;
+  min-height: 102vh;
+  max-height:99vh;
+  z-index: 1;
+  overflow-x: auto;
+}
+
+@media (max-width: 900px) {
+  .main-layout__sidebar {
+    min-width: 46px;
+    max-width: 54px;
+  }
+  .main-layout__home {
+    padding-left: 6vw;
+    padding-right: 1vw;
+  }
+}

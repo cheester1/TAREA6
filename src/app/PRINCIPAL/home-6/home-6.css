@@ -1,0 +1,41 @@
+.dashboard-card--revenue {
+  background: #fff;
+  border-radius: 24px;
+  min-width: 200px;
+  min-height: 162px;
+  box-shadow: 0 2px 24px 0 rgba(40,50,65,0.12);
+  padding: 19px 18px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.dashboard-card__revenue-circle {
+  width: 58px;
+  height: 58px;
+  background: linear-gradient(140deg, #ff7070 70%, #fae2e2 100%);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 16px;
+}
+.dashboard-card__revenue-circle .material-icons {
+  color: #fff;
+  font-size: 34px;
+}
+.dashboard-card__revenue-label {
+  color: #d4848d;
+  font-size: 1.06rem;
+  margin-bottom: 4px;
+}
+.dashboard-card__revenue-value {
+  font-size: 2.13rem;
+  font-weight: bold;
+  color: #f34848;
+  margin-bottom: 3px;
+}
+.dashboard-card__revenue-growth {
+  color: #44c07b;
+  font-size: 1.08rem;
+}
